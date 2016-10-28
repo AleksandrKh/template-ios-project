@@ -11,4 +11,6 @@
 
 @interface UIViewController (NavigationBar)
 
+- (void)setNavbar:(APPNavbar *)navbar;
+
 @end
