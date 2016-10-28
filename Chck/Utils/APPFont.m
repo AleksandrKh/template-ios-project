@@ -15,7 +15,7 @@
 /*
 NSString *string = [@"\uf041 " stringByAppendingString:@"Some location"];
 NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:string];
-[attributedString addAttribute:NSFontAttributeName value:[JNFont iconFAFontWithSize:kLocationLabelFontSize] range:NSMakeRange(0, 1)];
+[attributedString addAttribute:NSFontAttributeName value:[APPFont iconFAFontWithSize:kLocationLabelFontSize] range:NSMakeRange(0, 1)];
 [attributedString addAttribute:NSFontAttributeName value:[UIFont fontWithName:kFontRegular size:kLocationLabelFontSize] range:NSMakeRange(1, attributedString.length - 1)];
  */
 
