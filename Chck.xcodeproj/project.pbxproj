@@ -227,6 +227,7 @@
 				414394EF1DC290CC0051EBA8 /* AppDelegate.m */,
 				414394F01DC290CC0051EBA8 /* Controllers */,
 				414394F11DC290CC0051EBA8 /* Screens */,
+				41BCFF181DC3514F0053EEDF /* Models */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -327,6 +328,13 @@
 				414A61081DC29B8E0093BAA5 /* APPNavbar.m */,
 			);
 			path = Navbar;
+			sourceTree = "<group>";
+		};
+		41BCFF181DC3514F0053EEDF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		BD4B8EDEE821336C0011E4CD /* Pods */ = {
