@@ -10,4 +10,6 @@
 
 @interface APPController : NSObject
 
++ (instancetype)instance;
+
 @end
