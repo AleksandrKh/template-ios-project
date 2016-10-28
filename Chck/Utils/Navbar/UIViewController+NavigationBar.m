@@ -14,7 +14,7 @@ static CGFloat kNavbarTitleFontSize = 24;
 
 - (void)setNavbar:(APPNavbar *)navbar {
     
-    self.navigationController.navigationBar.translucent = NO;
+    self.navigationController.navigationBar.translucent = YES;
     self.navigationController.navigationBar.tintColor = navbar.tintColor;
     self.navigationController.navigationBar.barTintColor = navbar.backgroundColor;
     self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
