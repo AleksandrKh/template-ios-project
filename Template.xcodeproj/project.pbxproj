@@ -163,17 +163,17 @@
 		415DF2621DC4EFDA00523689 /* Template */ = {
 			isa = PBXGroup;
 			children = (
-				415DF2631DC4EFDA00523689 /* Assets.xcassets */,
-				415DF2641DC4EFDA00523689 /* LaunchScreen.storyboard */,
-				415DF2661DC4EFDA00523689 /* Main.storyboard */,
-				415DF2681DC4EFDA00523689 /* Classes */,
 				415DF2721DC4EFDA00523689 /* Config */,
-				415DF2751DC4EFDA00523689 /* Info.plist */,
-				415DF2761DC4EFDA00523689 /* Libs */,
-				415DF2A11DC4EFDA00523689 /* main.m */,
-				415DF2A21DC4EFDA00523689 /* Media */,
-				415DF2A31DC4EFDA00523689 /* PrefixHeader.pch */,
+				415DF2681DC4EFDA00523689 /* Classes */,
 				415DF2A41DC4EFDA00523689 /* Utils */,
+				415DF2A21DC4EFDA00523689 /* Media */,
+				415DF2761DC4EFDA00523689 /* Libs */,
+				415DF2751DC4EFDA00523689 /* Info.plist */,
+				415DF2A11DC4EFDA00523689 /* main.m */,
+				415DF2A31DC4EFDA00523689 /* PrefixHeader.pch */,
+				415DF2661DC4EFDA00523689 /* Main.storyboard */,
+				415DF2641DC4EFDA00523689 /* LaunchScreen.storyboard */,
+				415DF2631DC4EFDA00523689 /* Assets.xcassets */,
 			);
 			path = Template;
 			sourceTree = "<group>";
@@ -304,6 +304,7 @@
 		415DF2A41DC4EFDA00523689 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				415DF2AD1DC4EFDA00523689 /* Navbar */,
 				415DF2A51DC4EFDA00523689 /* APPErrorHandler.h */,
 				415DF2A61DC4EFDA00523689 /* APPErrorHandler.m */,
 				415DF2A71DC4EFDA00523689 /* APPFont.h */,
@@ -312,7 +313,6 @@
 				415DF2AA1DC4EFDA00523689 /* APPIcon.m */,
 				415DF2AB1DC4EFDA00523689 /* APPUtils.h */,
 				415DF2AC1DC4EFDA00523689 /* APPUtils.m */,
-				415DF2AD1DC4EFDA00523689 /* Navbar */,
 				415DF2B21DC4EFDA00523689 /* UIViewController+Alert.h */,
 				415DF2B31DC4EFDA00523689 /* UIViewController+Alert.m */,
 			);
