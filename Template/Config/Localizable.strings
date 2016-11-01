@@ -16,3 +16,5 @@
 
 // Errors
 "errorNotFound" = "Not found";
+"errorWrongObject" = "Wrong object";
+"errorRegex" = "Unknown typing error";

@@ -12,12 +12,13 @@ typedef NS_ENUM(NSUInteger, APPErrorCode) {
     
     APPErrorCodeUnknown = 0,
     APPErrorCodeNotFound,
+    APPErrorCodeWrongObject,
 };
 
 @interface APPErrorHandler : NSObject
 
 + (NSError *)errorWithMessage:(NSString *)message;
 + (NSError *)errorWithMessage:(NSString *)message code:(NSInteger)errorCode;
-+ (NSError *)errorNotFound;
++ (NSError *)errorWithCode:(APPErrorCode)code;
 
 @end

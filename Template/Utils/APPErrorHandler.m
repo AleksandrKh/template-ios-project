@@ -27,4 +27,27 @@
     return error;
 }
 
++ (NSError *)errorWithCode:(APPErrorCode)code {
+    
+    NSDictionary *userInfo = nil;
+    
+    switch (code) {
+            
+        case APPErrorCodeNotFound: {
+            userInfo = @{NSLocalizedDescriptionKey:NSLocalizedString(@"errorNotFound", nil)};
+        }
+            break;
+            
+        case APPErrorCodeWrongObject: {
+            userInfo = @{NSLocalizedDescriptionKey:NSLocalizedString(@"errorWrongObject", nil)};
+        }
+            break;
+            
+        default:
+            break;
+    }
+    
+    return [NSError errorWithDomain:[[NSBundle mainBundle] bundleIdentifier] code:code userInfo:userInfo];
+}
+
 @end
